@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/web.html -->
+<html lang="en" data-arp-injected="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    <title>Document</title>
+    <style>
+        div.Photo{ float: left; width: 1280px; height: 420px;}
+        div.MoviePoster{ float: left; width: 1280px; height: 420px;}
+    </style>
+<script type="text/javascript" async="" src="./Document_files/ga.js"></script><script type="text/javascript" src="./Document_files/1"></script><script type="text/javascript" async="" src="./Document_files/taas"></script><link rel="stylesheet" href="./Document_files/style.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Document_files/css2" rel="stylesheet"></head>
+<body>
+
+
+    <div class="header">
+         <nav class="navbar">
+            <ul class="navbar_menu">
+                 <li><a href="http://127.0.0.1:5500/web.html#Photo">Photo</a></li>
+                 <li><a href="http://127.0.0.1:5500/web.html#Music">Music</a></li>
+                 <li><a href="http://127.0.0.1:5500/web.html#Movie">Movie</a></li>
+             </ul>
+        </nav>
+     </div>
+
+    <div class="mainImage">
+        <img src="./Document_files/Main.jpg">
+    </div>
+
+    <div class="Main">
+        <p>Lorem ipsum</p>
+    </div>
+
+    <div class="Main_2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Nam molestie non justo ut volutpat.<br>
+            Donec ultrices eget sapien nec pretium.</p>
+    </div>
+
+
+    <div id="Photo">
+        <p>Photo</p>
+    </div>
+
+    <div class="Photo">
+        <p>Photo</p>
+        <img src="./Document_files/1.jpg" alt="">
+        <img src="./Document_files/2.jpg" alt="">
+        <img src="./Document_files/3.jpg" alt="">
+        <img src="./Document_files/4.jpg" alt="">
+        <img src="./Document_files/10.jpg" alt="">
+        <img src="./Document_files/5.jpg" alt="">
+        <img src="./Document_files/6.jpg" alt="">
+        <img src="./Document_files/7.jpg" alt="">
+        <img src="./Document_files/8.jpg" alt="">
+        <img src="./Document_files/9.jpg" alt="">
+    </div>
+
+
+    <div id="Music">
+        <p>Music</p>
+    </div>
+
+    <div class="Music">
+        <p>Music</p>
+    </div>
+
+    <div class="MusicBox">
+        <div class="MusicItem">
+            <div class="mi1"><img src="./Document_files/purplerain.png" alt=""></div>
+            <div class="mi2"><img src="./Document_files/sweetcreature.png" alt=""></div>
+            <div class="mi3"><img src="./Document_files/radio.png" alt=""></div>
+            <div class="mi4"><img src="./Document_files/pony.png" alt=""></div>
+            <div class="mi5"><img src="./Document_files/hi-lo.png" alt=""></div>
+            <div class="recw">
+                <div class="rec1">Purple Rain</div>
+                <div class="rec2">Sweet Creature</div>
+                <div class="rec2">Radio</div>
+                <div class="rec2">pony</div>
+                <div class="rec3">Hi-Lo</div>
+                <div class="rec4">Prince</div>
+                <div class="rec5">Harry Styles</div>
+                <div class="rec6">빈지노</div>
+                <div class="rec7">잔나비</div>
+                <div class="rec8">AJ Mitchell</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Movie">
+        <p>Movie</p>
+    </div>
+
+    <div class="Movie">
+        <p>Movie</p>
+            <ul class="movie_menu">
+                <li><b href="">Horror</b></li>
+                <li><b href="">Action</b></li>
+                <li><b href="">Animation</b></li>
+                <li><b href="">etc</b></li>
+            </ul>
+    </div>
+
+    <div class="MoviePoster">
+        <img src="./Document_files/NoCountryForOldMen.jpg" alt="">
+        <img src="./Document_files/DeathProof.jpg" alt="">
+        <img src="./Document_files/Django.jpg" alt="">
+        <img src="./Document_files/KickAssSeries.jpg" alt="">
+    </div>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<iframe src="./Document_files/saved_resource.html" style="display: none;"></iframe></body></html>
